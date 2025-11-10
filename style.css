@@ -11,10 +11,11 @@ html, body {
 main{
     height: 100%;
   width: 100%;
-  background:darkslateblue;
+  background:rgba(0, 0, 0, 0.137);
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+flex-direction: column;
   gap: 80px;
 }
 
@@ -23,15 +24,38 @@ a{
             background: black;
             display: inline-block;
             padding: 20px;
-            margin: 20px;
+            
             font-size: 1.5rem;
             text-transform: capitalize;
             text-decoration: none;
             border-radius: 20px;
         }
-        a:hover{
-            background-color: rgba(24, 24, 24, 0.389);
+
+      @media(min-width:400px) {
+        
+        main{
+    height: 100%;
+  width: 100%;
+  background:rgba(0, 0, 0, 0.137);
+  display: flex;
+flex-direction: column;
+   gap:40px;
+}
+
+a{
+            color: rgb(255, 249, 249);
+            background: black;
+            display: inline-block;
+            padding:  20px;
+            
+            font-size: 2rem;
+            text-transform: capitalize;
+            text-decoration: none;
+            border-radius: 20px;
         }
-        img{
-            height: 400px;
-        }
+
+       }
+
+
+                
+        
